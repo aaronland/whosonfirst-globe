@@ -1,0 +1,16 @@
+<Map background-color="#D5F4F8" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+  <Style name="Debug">
+    <Rule>
+      <PolygonSymbolizer fill="#f4ef74"/>
+      <LineSymbolizer stroke="#f11499" stroke-width="1" />
+    </Rule>
+  </Style>
+  <Layer name="vector" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+            <StyleName>Debug</StyleName>
+	    <Datasource>
+	      <Parameter name="type">shape</Parameter>
+	      <!-- you can also point to your shapefile without the 'shp' extention -->
+	      <Parameter name="file">test3.shp</Parameter>
+	    </Datasource>
+    </Layer>
+</Map>
