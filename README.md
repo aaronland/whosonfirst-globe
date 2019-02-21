@@ -2,7 +2,7 @@
 
 ## Important
 
-These is _not_ a finished project. It is mostly notes and a work in progress.
+These is _not_ a finished project. It is mostly notes and a work in progress. A good place to start is the [Who's On First globes](https://www.aaronland.info/weblog/2019/02/21/internet/) blog post.
 
 ## example
 
